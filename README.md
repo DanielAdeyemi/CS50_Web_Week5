@@ -34,6 +34,7 @@
 - to connect app to the project we need to go to `settings.py` inside a project directory and add an app name into the list of installed apps
 - Migration Step 1: _create migration_ `pytnon3 manage.py makemigrations` - instructions how to apply changes I want to make to the db
 - Migration Step 2: _migrate changes_ `python3 manage.py migrate` - take my instructions/changes and apply them to the db
+- to access admin app we need to run command `python3 manage.py createsuperuser`
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png">
 
