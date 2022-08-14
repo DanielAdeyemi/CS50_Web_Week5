@@ -29,3 +29,6 @@ class Passenger(models.Model):
     last = models.CharField(max_length=64)
     flights = models.ManyToManyField(
         Flight, blank=True, related_name="passenger")
+
+    def __str__(self):
+        return f"{self.first} {self.last}"
